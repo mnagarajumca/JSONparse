@@ -14,6 +14,7 @@ function parser(input){
 	let SuccessInfo  = input.pages.map((item,index)=>{
 		return item.address;
 	});  
+	//Get the Skipped and Invalid address
 	let SkippedInfo=[];
 	let ErrorInfo =[];
 	let parserItems  = input.pages.map((item,index)=>{		
